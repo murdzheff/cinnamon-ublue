@@ -13,7 +13,7 @@ dnf5 group info "cinnamon-desktop"
 
 # this installs a package from fedora repos
 dnf5 install -y tmux
-dnf5 group install "cinnamon-desktop"
+dnf5 group install "cinnamon-desktop" -y
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
