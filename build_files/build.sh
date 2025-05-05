@@ -11,7 +11,7 @@ set -ouex pipefail
 dnf5 group list --hidden
 # this installs a package from fedora repos
 dnf5 install -y tmux
-dnf5 group install %cinnamon-desktop -y
+dnf install %cinnamon-desktop -y
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
